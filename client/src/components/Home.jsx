@@ -39,7 +39,7 @@ const Home = () => {
     return (
         <Box className={classes.wallpaper}>
             <Box className={classes.txtBx}>
-            <Typography className={classes.title}>Welcome to the Region of Knowledge. Learn and grow.</Typography>        
+            <Typography className={classes.title}>Welcome to the Region of Knowledge. Keep Learning.</Typography>        
             </Box>
             <Button variant="contained" className={classes.addBtn} onClick={() => toAddPage()} >New Entry</Button>
         </Box>

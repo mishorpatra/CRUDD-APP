@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const usersUrl = 'https://regionofknowledge.herokuapp.com/users'
+const usersUrl = 'https://localhost:8000/users'
 
 export const getUsers = async (id) => {
     id = id || ''
